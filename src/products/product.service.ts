@@ -19,6 +19,6 @@ export class ProductService {
   }
 
   async findProductById(id: string) {
-    return await this.productModel.findById({ _id: id });
+    return await this.productModel.findById(id);
   }
 }
